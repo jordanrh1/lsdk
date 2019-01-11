@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+        <remote name="github" fetch="https://github.com" />
+        <remote name="qoriq" fetch="https://source.codeaurora.org/external/qoriq/qoriq-components" />
+
+        <default remote="github" revision="master" />
+
+	<!-- main git -->
+        <project path="lsdk" name="ms-iot/lsdk.git" revision="master">
+
+        <!-- firmware gits -->
+        <project path="u-boot" name="ms-iot/u-boot" revision="ms-iot-grapeboard" />
+</manifest>
