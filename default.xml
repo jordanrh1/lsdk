@@ -10,4 +10,5 @@
 
         <!-- firmware gits -->
         <project path="u-boot" name="ms-iot/u-boot" revision="ms-iot-grapeboard" />
+        <project path="cst" name="cst" revision="LSDK-18.09" remote="qoriq" />
 </manifest>

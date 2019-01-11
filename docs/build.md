@@ -13,6 +13,6 @@ chmod a+x ~/bin/repo
 ```
 mkdir lsbuild
 cd lsbuild
-repo init -u https://github.com/jordanrh1/lsdk.git
+repo init --fetch-submodules -u https://github.com/jordanrh1/lsdk.git
 repo sync
 ```
