@@ -6,7 +6,7 @@
         <default remote="github" revision="master" />
 
 	<!-- main git -->
-        <project path="lsdk" name="ms-iot/lsdk.git" revision="master">
+        <project path="lsdk" name="ms-iot/lsdk.git" revision="master" />
 
         <!-- firmware gits -->
         <project path="u-boot" name="ms-iot/u-boot" revision="ms-iot-grapeboard" />
